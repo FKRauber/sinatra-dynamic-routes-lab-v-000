@@ -28,7 +28,11 @@ class App < Sinatra::Base
     number2 = params[:number2].to_i
     answer = "Unable to perform this operation"
     case params[:operation]
-    when condition
+    when 'add'
+    when 'subtract'
+    when 'multiply'
+    when 'divide'
+      
 
     end
   end
