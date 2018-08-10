@@ -29,13 +29,13 @@ class App < Sinatra::Base
     answer = "Unable to perform this operation"
     case params[:operation]
     when 'add'
-      
+      answer = number1 + number2
     when 'subtract'
-      
+      answer = number2 - number1
     when 'multiply'
-      
+      answer = number1 * number2
     when 'divide'
-      
+      answer = number2 / number1
     end
   end
 
