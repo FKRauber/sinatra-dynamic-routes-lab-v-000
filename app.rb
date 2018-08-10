@@ -31,11 +31,11 @@ class App < Sinatra::Base
     when 'add'
       answer = number1 + number2
     when 'subtract'
-      answer = number2 - number1
+      answer = number1 - number2
     when 'multiply'
       answer = number1 * number2
     when 'divide'
-      answer = number2 / number1
+      answer = number1 / number2
     end
   end
 
